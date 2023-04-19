@@ -1,0 +1,295 @@
+body,
+h1,
+h3,
+form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    color: #0d130e;
+}
+
+header {
+    background-color: #131d15;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+nav {
+    background-color: #131d15;
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #345039;
+}
+
+main {
+    padding: 20px;
+}
+
+#admin-login {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#admin-login h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 15%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+form textarea {
+    width: 15%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    width: auto;
+    padding: 10px;
+    background-color: #598c62;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+    background-color: #345039;
+}
+form input[type="reset"]:hover {
+    background-color: #345039;
+}
+form select {
+    width: 10%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+input[type="date"] {
+    width: 10%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+button[type="recover"][name="recover"] {
+    width: auto;
+    padding: 10px;
+    background-color: #598c62;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button[type="recover"][name="recover"]:hover {
+    background-color: #345039;
+}
+
+button[type="submit"] {
+    width: auto;
+    padding: 10px;
+    background-color: #598c62;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease-in-out;
+}
+button[type="submit"]:hover {
+    background-color: #345039;
+}
+
+button[name="cattle_submit"] {
+    width: auto;
+    padding: 10px;
+    background-color: #598c62;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button[name="cattle_submit"]:hover {
+    background-color: #345039;
+}
+
+button[name="UpdateSubmit"] {
+    width: auto;
+    padding: 10px;
+    background-color: #598c62;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button[name="UpdateSubmit"]:hover {
+    background-color: #345039;
+}
+
+button[type="recover"][name="recover"] {
+    width: auto;
+    padding: 10px;
+    background-color: #598c62;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button[type="recover"][name="recover"]:hover {
+    background-color: #345039;
+}
+
+.admin-button {
+    width: auto;
+    padding: 10px;
+    background-color: #598c62;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.admin-button:hover {
+    background-color: #345039;
+}
+
+.google-map {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 23%;
+    overflow: hidden;
+}
+
+.google-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+footer {
+    background-color: #131d15;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
